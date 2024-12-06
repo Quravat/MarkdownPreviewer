@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background: #1e1e2f;
+    color: #fff;
+}
+
+#app {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    padding: 10px;
+}
+
+textarea {
+    flex: 1;
+    padding: 15px;
+    background: #2b2b3d;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+}
+
+#preview {
+    flex: 1;
+    padding: 15px;
+    background: #252535;
+    border-left: 2px solid #444;
+    overflow-y: auto;
+}
+
+.markdown-output h1 {
+    color: #4caf50;
+}
+
+.markdown-output p {
+    line-height: 1.6;
+}
